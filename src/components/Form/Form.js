@@ -3,7 +3,6 @@ import "./Form.css";
 import { uid } from "uid";
 
 const Form = (props) => {
-  console.log(props);
   // destructuring
   const { edit, toggleModal, selectedNote } = props;
 

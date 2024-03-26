@@ -5,8 +5,6 @@ const Note = (props) => {
   const { toggleModal, note, setSelectedNote } = props;
 
   // setting useStates
-  // const [title, setTitle] = useState(note.title);
-  // const [text, setText] = useState(note.text);
   const [isHover, setIsHover] = useState(false); // set ishover default to false (we are not hovering)
 
   // when we click on a note
